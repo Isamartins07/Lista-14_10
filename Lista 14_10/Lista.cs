@@ -8,6 +8,23 @@ namespace Lista_14_10
 {
     internal class Lista
     {
+
+        public  void Inversao()
+        {
+
+            int[] numeros = new int[10];
+
+            Console.WriteLine("Digite 10 números,pressione Enter para cada número");
+
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                numeros[i] = int.Parse(Console.ReadLine());
+            }
+
+
+
+
+        }
         public void Anagrama()//4
         {
             // char -- para representar caracteres individuais,seja núm,letra,simbolo...
@@ -113,7 +130,7 @@ namespace Lista_14_10
                 
             }
             Console.WriteLine("Resultado da média "+soma);
-  
+            Console.ReadKey();
         }
     }
 }
